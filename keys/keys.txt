@@ -23,10 +23,11 @@ EZPay/Mobile App
 
 Username: beamerr05
 Password: 01052000
+User Type: Passenger
 
 Username: cjice
 Password: cjice05
-
+User Type: Driver
 
 
 
