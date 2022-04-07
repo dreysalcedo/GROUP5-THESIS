@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="50dp">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top Up Transactions"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textColor="@color/matte_black"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transac_id" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Transaction ID:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:textColor="@color/light_grey"
+        android:layout_marginBottom="20dp"
+        android:text="1"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobilenum"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Mobile Number:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_number"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Mobile Number"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/value"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Load Value:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txt_value"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Load Value"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/date"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Date:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Date"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cashier"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Cashier Name:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txt_cashier"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Cashier Name"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/terminal"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Terminal:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txt_terminal_name"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Terminal"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>

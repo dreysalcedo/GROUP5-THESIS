@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel History"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textColor="@color/matte_black"
+        android:textSize="30sp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transac_id" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Transaction ID:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_id"
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:textColor="@color/light_grey"
+        android:layout_marginBottom="20dp"
+        android:text="1"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fare"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Fare:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_fare"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Fare"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mobilenum"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Mobile Number:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_mobilenum"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Mobile Number"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/init_loc"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Initial Location:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/travel_initlocation"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Initial Location"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/destination"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Destination:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_destination"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Destination"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/status"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Status:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_status"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Status"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/distance"/>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:text="Distance in km:"
+        android:textColor="@color/matte_black"
+        android:fontFamily="@font/jetbrains_mono_medium"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/travel_distance"
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/light_grey"
+        android:text="Distance"
+        android:textStyle="bold"
+        android:fontFamily="@font/jetbrains_mono_regular"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+
+
+
+</LinearLayout>

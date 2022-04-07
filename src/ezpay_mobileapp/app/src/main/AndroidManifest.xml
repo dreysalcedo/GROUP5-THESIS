@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera.any" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mobile App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileApp"
+        android:usesCleartextTraffic="${usesCleartextTraffic}">
+        <activity android:name=".Passenger_Mobile_QR"></activity>
+        <activity android:name=".Travel_History" />
+        <activity android:name=".TopUp_Transaction" />
+        <activity android:name=".Confirm_Ticket" />
+        <activity android:name=".Passenger_Generate_QR" />
+        <activity android:name=".Driver_Sales" />
+        <activity android:name=".Driver_QR" />
+        <activity android:name=".Driver_ShortestPath" />
+        <activity android:name=".Driver_Profile" />
+        <activity android:name=".DriverDashboard" />
+        <activity android:name=".Passenger_Calculator" />
+        <activity android:name=".Passenger_ShortestPath" />
+        <activity android:name=".Passenger_QR" />
+        <activity android:name=".Passenger_Profile" />
+        <activity android:name=".Passenger_Dashboard" />
+        <activity android:name=".SignUp_Activity" />
+        <activity android:name=".Login_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

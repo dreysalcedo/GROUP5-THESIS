@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MobileApp</string>
+
+    <string-array name="login_users">
+        <item>Passenger</item>
+        <item>Driver</item>
+    </string-array>
+
+    <string-array name="signup_users">
+        <item>Passenger</item>
+        <item>Driver</item>
+    </string-array>
+
+    <string-array name="passenger_type">
+        <item>Discounted</item>
+        <item>Regular</item>
+    </string-array>
+
+    <string-array name="transpo_type">
+        <item>Regular Bus</item>
+        <item>Air-Conditioned Bus</item>
+        <item>Modernized Jeepney</item>
+        <item>Taxi</item>
+    </string-array>
+
+    <string name="savedata">https://sdffea.com/Thesis/save.php</string>
+    <string name="e">E</string>
+    <string name="d">D</string>
+    <string name="c">C</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+</resources>

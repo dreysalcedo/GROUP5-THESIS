@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text_signup" type="id"/>
+    <item name="background" type="id"/>
+    <item name="txtfield_username" type="id"/>
+    <item name="txtfield_password" type="id"/>
+    <item name="show_pass" type="id"/>
+    <item name="spinner" type="id"/>
+    <item name="btn_login" type="id"/>
+    <item name="text_didnt" type="id"/>
+</resources>
