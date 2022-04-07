@@ -1,0 +1,37 @@
+Fare Management System
+
+Username: administrator
+Password: admin123
+
+Top-Up System
+•Cashier
+Username: beacashiertest
+Password: cashier123
+
+Username: icecashiertest
+Password: cashier123
+
+•Manager
+
+Username: audreymanagertest
+Password: manager123
+
+Username: tinamanagertest
+Password: manager123
+
+EZPay/Mobile App
+
+Username: beamerr05
+Password: 01052000
+
+Username: cjice
+Password: cjice05
+
+
+
+
+
+
+
+
+
