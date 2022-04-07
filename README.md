@@ -37,6 +37,15 @@ To check the credentials of the developed system:
 
     keys/keys.txt
 
+To check the exported database: 
+	
+	config/ezpaydb.sql
+	
+To check the dataset used in simulation of SARIMAX:
+
+	datasets/arima_sales.csv
+
+
 # API REFERENCE
 
 For Google Maps API Key
